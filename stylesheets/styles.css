@@ -1,3 +1,58 @@
-span {
+.digit {
     color: pink
 }
+
+/*coment blablabalbalab*/
+selector {
+    property: value;
+    property2: value2
+}
+
+.header {
+    background-color: blanchedalmond;
+}
+
+.digit {
+    font-size: xx-large;
+}
+
+.header-buttons {
+    display: inline;
+}
+
+.header-buttons > * {
+    display: inline;
+}
+
+.header-buttons > a {
+    border-style: solid;
+    border-width: 5px;
+    border-color: brown;
+    background-color: cyan;
+    padding: 15px;
+    margin-left: 50px;
+    
+}
+
+.header-buttons > h2 {
+    width: 33%
+}
+
+.footer {
+    border-style: solid;
+}
+
+.footer > * {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.footer > * > .digit {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: darkorange;
+}
+
+/* * {
+    text-align: center;
+} */
