@@ -46,7 +46,9 @@ selector {
     text-align: center;
     margin-bottom: 3em;
 }
-
+/* 
+!!! DESCENDANT SELECTOR
+*/
 .footer > * > .digit {
     border-style: dotted;
     border-width: 5px;
